@@ -25,7 +25,7 @@ def generate_text_from_gemini(prompt: str, model_name: str = "gemini-2.5-pro") -
         result = response.json()
 
         if result.get("candidates") and len(result["candidates"]) > 0 and \
-           result["candidates"][0].get("content") and \``
+           result["candidates"][0].get("content") and \
            result["candidates"][0]["content"].get("parts") and \
            len(result["candidates"][0]["content"]["parts"]) > 0:
             return result["candidates"][0]["content"]["parts"][0]["text"]
