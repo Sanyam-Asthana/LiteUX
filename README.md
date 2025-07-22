@@ -2,6 +2,13 @@
 
 LiteUX is an AI-powered tool which creates modern UX designs using HTML Canvas.
 
+
+<img src="./music.png" alt="Music App UI" width="500"/>
+
+##### *A Music app UX design made using LiteUX*
+
+---
+
 ### Steps to use:
 1. Clone the repository
 2. Open Terminal in the repository directory
